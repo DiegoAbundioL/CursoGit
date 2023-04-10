@@ -1,0 +1,51 @@
+Abundio López Diego				Curso de GIT/GITHUB
+								LI-141
+				GIT
+Git: Sistema de control de versiones que controla o administra las distintas versiones de un programa.
+	Interactúa directamente con el sistema operativo.
+	Se sube a un repositorio para almacenarlo y que la gente lo pueda ver.
+	Todos pueden modificarlo, si hay errores se puede regresar a la versión anterior y arreglarlo.
+
+Comandos importantes:
+      -	git config –-global user.name “nombre”: Sirve para registrar tu nombre en Git.
+      -	git config –global user.email ”correo”: Sirve para registrar tu correo electrónico en Git. 
+      -	cd: abrir escritorio y archivos.
+      -	ls: Comando para listar directorios y archivos.
+      -	pwd: Para ver en qué ruta de nuestro sistema está posicionado el terminal.
+      -	git init: Inicializar un nuevo proyecto.
+      -	git status: Para ver el estado de nuestros archivos.
+      -	git add: Para agregar un archivo al Staging area.
+              o	Staging area: Es el lugar en el que se encuentran datos de un proyecto y sus cambios.
+      -	git add –A: Para agregar todos los archivos al Staging área.
+      -	git commit: Para crear un punto de control en nuestro código.
+              o	Presionar la tecla i para poder escribir
+              o	Presionar la tecla Esc para dejar de escribir el commit.
+              o	:q salir y no guardar datos.
+              o	:qw salir del editor y guardar datos.
+      -	git log: Para ver todos los commits que hemos hecho.
+      -	git checkout – “nombre del archivo”: Revertir los cambios del archivo.
+      -	git diff “nombre del archivo”: Ver diferencias hechas en los archivos.
+      -	.gitignore: Se coloca el nombre de la carpeta que se quiere ignorar.
+      -	git commit –m: Agregar texto sin tener que entrar  al editor.
+      -	git branch: Permite crear, enumerar y eliminar ramas, así como cambiar su nombre.
+              o	git branch login: rama creada.
+              o	git checkout login: Cambiar de rama, la  otra era master, pero ahora será login.
+
+				GITHUB
+GitHub: Es un servicio basado en la nube que aloja un sistema de control de versiones (VCS) llamado Git.
+
+Creación de un repositorio:
+     1.	Primero, se debe de tener una cuenta de GitHub, si aún no se tiene, debe hacerse.
+     2.	Darle click al cuadro que dice New.
+     3.	Ponerle nombre al repositorio, decidir si será público o privado, al igual que agregar un README, el cual sirve para presentar un proyecto.
+     4.	Darle click a Create repository.
+
+Agregar un proyecto a GitHub/  Git:
+      -	Ir al final del proyecto y agregar git remote add origin.
+      -	Delante de ese texto colocar el sitio web que arrojó el repositorio.
+      -	El proyecto aparecerá en el repositorio que creamos.
+
+Agregar proyecto a GitHub/ NetBeans:
+      -	En el apartado Team, deberemos hacerle un commit al proyecto que se desea subir, se debe agregar un texto, puede ser de algún cambio que le hayamos hecho y seleccionar los archivos que se subirán.
+      -	De igual manera en el apartado Team, se irá a Remote, en Remote se seleccionará Pull, se abrirá una pestaña en la cual se tendrá que colocar la URL del repositorio, abajo se colocará el nombre del usuario y el token de acceso que otorga GitHub, se dará en finalizar, de esa manera se subirá al repositorio.
+      -	En caso de no tener el token de acceso, en la página de GitHub se irá al apartado de ajustes(settings), se tendrá que buscar el apartado de Developer settings, estando ahí se tendrá que ir a Personal access token, se dará click a token y ahí se seleccionará para qué queremos usar el token, una vez completado arrojará una clave, la cual tendremos que copiar y pegar en NetBeans.
